@@ -9,17 +9,17 @@ const TaskSchema = new Schema({
     trim: true
   },
   ingredients: {
-    type: Object,
+    type: String,
     required: true,
     trim: true
   },
   quantity: {
-    type: Object,
+    type: String,
     required: true,
     default: null
   },
   uncountable: {
-    type: Object,
+    type: String,
     required: true,
     minlength: 1,
     trim: true
